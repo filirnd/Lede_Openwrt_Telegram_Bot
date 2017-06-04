@@ -4,6 +4,7 @@ Telegram bot for router with firmware Lede/Openwrt.
 ## Implemented functions (Commands via Telegram message)
   - /reboot : Reboot router;
   - /connected_clients : Return list of connected clients;
+  - /memory : Return memory (RAM) info
 
 ## Prerequisites
 Telegram bot run under Lede or Openwrt firmware than the first prerequisite is to have Lede/Openwrt installed.

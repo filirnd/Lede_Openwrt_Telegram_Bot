@@ -56,7 +56,13 @@ do
 							clients=$("./functions/get_connected_clients.sh")
 							RETURN_TEXT="$(printf "Connected clients: \n$clients")"
 							reply_to_msg $msg_id $origin "\${RETURN_TEXT}"
-                                                        ;;  
+                                                        ;;
+						("/memory")
+							echo "[ $DATE ] memory!" >> $cmd_log_file
+							clients=$("./functions/memory_info.sh")
+							RETURN_TEXT="$(printf "Memory informations: \n$clients")"
+							reply_to_msg $msg_id $origin "\${RETURN_TEXT}"
+                                                        ;;							
 						(*)
 							echo "[ $DATE ] $cmd command not enabled" >> $cmd_log_file
                                     		        RETURN_TEXT="This command is not enabled."
