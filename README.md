@@ -35,3 +35,4 @@ Set your variables (bot token and chat id) in ```variables``` file under ```/roo
 
 Enjoy your bot!
 
+Thanks to [Helias](https://github.com/Helias/ "Helias github repo home") for inspiring and some helps!
