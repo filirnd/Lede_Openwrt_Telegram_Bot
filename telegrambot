@@ -1,0 +1,8 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+
+START=99
+start() {
+	cd /root/
+	./telegram_bot
+}

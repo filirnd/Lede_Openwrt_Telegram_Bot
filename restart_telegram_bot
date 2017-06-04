@@ -1,0 +1,3 @@
+#!/bin/sh
+killall telegram_bot > /dev/null
+./telegram_bot &

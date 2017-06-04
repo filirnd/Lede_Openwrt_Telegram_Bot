@@ -1,0 +1,6 @@
+key='[PUT YOUR BOT TOKEN HERE]'
+api="https://api.telegram.org/bot$key"
+my_chat_id='[PUT YOUR CHAT ID HERE]'
+telegram_log_file=/tmp/telegram.log
+cmd_log_file=/root/cmd.log
+offset_file=/root/offset
