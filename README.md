@@ -1,3 +1,5 @@
+# THIS REPO IS NOT MAINTAINED, CHECK NEW OPENWRT BOT ON https://github.com/filirnd/owbot
+
 # Lede_Openwrt_Telegram_Bot
 Telegram bot for router with firmware Lede/Openwrt.
 
